@@ -1,28 +1,34 @@
+/* Header layout */
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: fbf8f8;
+    background-color: #fbf8f8;
     padding: 10px 30px;
+    flex-wrap: wrap;
 }
 
-.logo-title{
-    display:flex;
-    align-items:center;
-    gap:15px;
+.logo-title {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-shrink: 0;
 }
 
-.logo-title img{
+.logo-title img {
     height: 60px;
 }
 
-.logo-title h1{
-    font-size: 24px;
-    color: #2a7d2e;
-    margin:0;
+.logo-title h1 {
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    color: #0D6627;
+    margin: 0;
+    white-space: nowrap;
 }
 
-.nav-links{
+.nav-links {
     list-style: none;
     display: flex;
     gap: 25px;
@@ -30,54 +36,73 @@
     padding: 0;
 }
 
-.nav-links a{
+.nav-links a {
     text-decoration: none;
-    color: #333;
-    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    letter-spacing: -0.5%;
     transition: color 0.2s ease;
 }
 
-.nav-links a:hover{
+.nav-links a:hover {
     color: #2a7d2e;
 }
 
-/*responsiveness*/
+/* --- Responsive --- */
 
-@media(max-width:900px){
-    .header{
-        flex-wrap: wrap;
+/* Tablet */
+@media (max-width: 900px) {
+    .header {
         justify-content: center;
-        text-align: center;
     }
 
-    .logo-title{
-        justify-content:center;
-        width: 100%;
+    .logo-title {
+        justify-content: center;
+        width: auto;        /* was 100%, changed */
         margin-bottom: 10px;
+        flex-wrap: nowrap;  /* ensures image + text stay in one line */
     }
 
-    .nav-links{
-        justify-content:center;
+    .logo-title h1 {
+        font-size: 30px;
+        text-align: left;   /* keep natural alignment */
+        width: auto;        /* remove 100% width */
+    }
+
+    .nav-links {
+        justify-content: center;
         width: 100%;
     }
 }
 
-@media(max-width:600px){
-    .header{
+/* Mobile */
+@media (max-width: 600px) {
+    .header {
         flex-direction: column;
         padding: 15px;
     }
 
-    .logo-title img{
-        height: 50px
+    .logo-title {
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: nowrap; /* keep them side by side even on small screens */
     }
 
-    .logo-title h1{
-        font-size:20px;
+    .logo-title img {
+        height: 45px;
     }
 
-    .nav-links{
+    .logo-title h1 {
+        font-size: 22px;
+        text-align: left;
+        width: auto;
+    }
+
+    .nav-links {
         flex-direction: column;
+        align-items: center;
         gap: 10px;
     }
 }
