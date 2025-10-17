@@ -28,7 +28,7 @@
     white-space: nowrap;
 }
 
-.nav-links {
+.header-links {
     list-style: none;
     display: flex;
     gap: 25px;
@@ -36,7 +36,7 @@
     padding: 0;
 }
 
-.nav-links a {
+.header-links a {
     text-decoration: none;
     font-family: "Inter", sans-serif;
     font-size: 16px;
@@ -46,7 +46,7 @@
     transition: color 0.2s ease;
 }
 
-.nav-links a:hover {
+.header-links a:hover {
     color: #2a7d2e;
 }
 
@@ -57,7 +57,76 @@ body {
     font-family: "Inter", sans-serif;
 }
 
+/*Footer Layout */
+.footer {
+    background-color: #fbf8f8;
+    padding: 40px 80px;
+    font-family: "Inter", sans-serif;
+    color: #333;
+}
 
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.footer-about {
+    flex: 1 1 250px;
+    max-width: 400px;
+}
+
+.footer-about h2 {
+    font-weight: 800px;
+    margin-bottom: 10px;
+}
+
+.footer-about p {
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+.footer-links {
+    display: flex;
+    flex: 2 1 500px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.footer-column h3 {
+    font-weight: 800px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column li {
+    margin-bottom: 8px;
+}
+
+.footer-column a {
+    text-decoration: none;
+    color: #555;
+    transition: color 0.2 ease;
+}
+
+.footer-column a:hover {
+    color: #0D6627;
+}
+
+.footer-copy {
+    text-align: center;
+    margin-top: 40px;
+    color: #777;
+    font-size: 14px;
+}
 
 
 
@@ -78,20 +147,38 @@ body {
 
     .logo-title {
         justify-content: center;
-        width: auto;        /* was 100%, changed */
+        width: auto;
+        /* was 100%, changed */
         margin-bottom: 10px;
-        flex-wrap: nowrap;  /* ensures image + text stay in one line */
+        flex-wrap: nowrap;
+        /* ensures image + text stay in one line */
     }
 
     .logo-title h1 {
         font-size: 30px;
-        text-align: left;   /* keep natural alignment */
-        width: auto;        /* remove 100% width */
+        text-align: left;
+        /* keep natural alignment */
+        width: auto;
+        /* remove 100% width */
     }
 
-    .nav-links {
+    .header-links {
         justify-content: center;
         width: 100%;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-links {
+        justify-content: center;
+    }
+
+    .footer-column {
+        min-width: 150px;
     }
 }
 
@@ -105,7 +192,8 @@ body {
     .logo-title {
         justify-content: center;
         gap: 10px;
-        flex-wrap: nowrap; /* keep them side by side even on small screens */
+        flex-wrap: nowrap;
+        /* keep them side by side even on small screens */
     }
 
     .logo-title img {
@@ -118,74 +206,9 @@ body {
         width: auto;
     }
 
-    .nav-links {
+    .header-links {
         flex-direction: column;
         align-items: center;
         gap: 10px;
     }
 }
-
-
-
-
-/* Footer layout */
-
-.decorative-line-section {
-  position: relative;
-  padding-top: 20px;
-}
-
-.decorative-line-section::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background-color: lightgray;
-}
-
-.header h2 {
-    font-size: 24px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    color: #000000;
-    margin: 10px;
-    justify-content: space-between;
-    background-color: #fbf8f8;
-    padding: 10px;
-    white-space: wrap;
-}
-
-.nav-links {
-        font-size: 16px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    color: #000000;
-    list-style: ;
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    margin: 20;
-    padding: 40;
-    line-height: 4;
-}
-
-h1 {
-    color: black;
-    text-align: center;
-}
-
-p {
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
-}
-
-.nav-links a {
-    text-decoration: none;
-    font-family: "Inter", sans-serif;
-    font-size: 16px;
-    color: #000;
-    font-weight: 500;
-    letter-spacing: -0.5%;
-    transition: color 0.2s ease;
