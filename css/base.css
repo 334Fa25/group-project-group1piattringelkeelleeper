@@ -57,6 +57,16 @@ body {
     font-family: "Inter", sans-serif;
 }
 
+/*Main layout*/
+.main p{
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    display: flex;
+}
+
 /*Footer Layout */
 .footer {
     background-color: #fbf8f8;
