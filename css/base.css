@@ -68,7 +68,6 @@ body {
 
 
 
-
 /* --- Responsive --- */
 
 /* Tablet */
@@ -125,3 +124,68 @@ body {
         gap: 10px;
     }
 }
+
+
+
+
+/* Footer layout */
+
+.decorative-line-section {
+  position: relative;
+  padding-top: 20px;
+}
+
+.decorative-line-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: lightgray;
+}
+
+.header h2 {
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    margin: 10px;
+    justify-content: space-between;
+    background-color: #fbf8f8;
+    padding: 10px;
+    white-space: wrap;
+}
+
+.nav-links {
+        font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    list-style: ;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 20;
+    padding: 40;
+    line-height: 4;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    letter-spacing: -0.5%;
+    transition: color 0.2s ease;
