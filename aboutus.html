@@ -47,135 +47,156 @@
             and maintains outdoor spaces for homes and small businesses. We focus on sustainable plants,
             water-conscious irrigation, and creative garden design.</p>
     </div>
-    <a href="services.html">
-        <button><a>Beautify Your Landscape Now!</a><button>
+    <button onclick="location.href='services.html';">Beautify Your Landscape Now!</button> <!-- Buttions need javascript for the onclick, not href-->
+    <img src="images/redDoorHouse.jpg" alt="Red Door House">
 
-                <img src="images/redDoorHouse.jpg" alt="Red Door House">
+    <div class="mission-box">
+        <h2>Our Mission</h2>
+        <p>At BrightSprout Landscaping, we’re dedicated to creating outdoor spaces that benefit both your
+            property and the environment. Sustainability isn’t just a practice—it’s our promise. From
+            eco-friendly design choices to responsible maintenance practices, we strive to make a positive
+            impact on the planet while delivering landscapes that inspire and delight.</p>
+    </div>
+    <div class="description-box">
+        <img src="images/house1.jpg" alt="House 1">
+        <h3>Why Choose BrightSprout?</h3>
+        <!--For a list, you use ul (unordered list) and li to list it-->
+        <ul>
+            <li>Locally-focused designs that suit Missouri’s climate and soil.</li>
+            <li>Expert care from a team passionate about plants, beauty, and sustainability.</li>
+            <li>Innovative solutions that balance aesthetics with environmental responsibility.</li>
+        </ul>
+        <!--Dont use in-line css to change the list style, do it in the css file later-->
+    </div>
+    <!--H2 cant have a div inside of it, it needs to be the other way around-->
+    <div class="body-column">
+        <!--Make sure you close code with a / like below-->
+        <h2>Meet Our Team</h2>
+        <!-- similar thing here, when you push these things forward with tab
+                it makes the code thing you are trying to have UL as a child of h2
+                so just keep them on the same line like this-->
+        <ul>
+            <li><img src="images/jamie.jpg" alt="Jamie"></li>
+            <li>
+                <h4>Jamie Rivers</h4>
+                <!--Same thing here, close the <li> with </li>-->
+            <li>
+                <h5>Owner & Designer</h5>
+            </li>
+            <li>
 
-                <div class="mission-box">
-                    <h2>Our Mission</h2>
-                    <p>At BrightSprout Landscaping, we’re dedicated to creating outdoor spaces that benefit both your
-                        property and the environment. Sustainability isn’t just a practice—it’s our promise. From
-                        eco-friendly design choices to responsible maintenance practices, we strive to make a positive
-                        impact on the planet while delivering landscapes that inspire and delight.</p>
+                <!--you dont need to break every single line, or at all here really-->
+                <p>"I believe a garden should be both
+                    beautiful and kind to the planet."
+                    Jamie’s expertise in horticulture and
+                    sustainable design guides every project.
+                    With a keen eye for detail and a deep
+                    respect for the natural environment, Jamie
+                    ensures each landscape is not only
+                    visually stunning but ecologically
+                    responsible.
+            </li>
+        </ul>
+        <!--This was pushed forward, which made the code think
+                it was a child of the UL, which its not, it also needs
+                to be on the same level as the first div so you dont have
+                a div inside a div inside a div, at least in this case
+                since they are going to be the same class-->
+    </div>
+    <div class="body-column">
+        <ul>
+            <li><img src="images/carlos.jpg" alt="Carlos"></li>
+            <li>
+                <h4>Carlos Lopez</h4>
+            </li>
+            <li>
+                <!--Header elements need a closer tag-->
+                <h5>Irrigation Specialist</h5>
+            </li>
+            <li>
+                <p>Carlos is the wizard behind our water-
+                    efficient systems. His innovative irrigation
+                    solutions ensure your landscape
+                    flourishes while conserving one of our
+                    most precious resources.
+            </li>
+            <!--Make sure you close your ULs, they werent closed-
+                    same with the divs, none of them were closed, this is what
+                    lead to you just constantly having to tab in more and more-->
+        </ul>
+    </div>
+    <div class="body-column">
+        <ul>
+            <li><img src="images/mina.png" alt="Mina"></li>
+            <li>
+                <h4>Mina Patel</h4>
 
-                    <div class="description-box">
-                        <img src="images/house1.jpg" alt="House 1">
-                        <h3>Why Choose BrightSprout?</h3>
-                        <p>• Locally-focused designs that suit Missouri’s climate and soil. <br>
-                            • Expert care from a team passionate about plants, beauty, and sustainability. <br>
-                            • Innovative solutions that balance aesthetics with environmental responsibility. <br>
+            <li>
+                <h5>Maintenance Lead</h5>
+            </li>
+            <li>
+                <p>Mina keeps every garden at its peak
+                    through all seasons. Her knowledge of
+                    plants, soils, and seasonal care routines
+                    ensures that your landscape continues to
+                    thrive long after installation.
+            </li>
 
+        </ul>
+    </div>
 
+    <div class="tesimonial-box">
+        <h2>Customer Testimonials</h2>
+        <h5 className="leading-[1.5]">Laura P.</h5>
+        <p className="leading-[1.45]">"BrightSprout gave our front yard a <br>
+            whole new look with plants that
+            don’t need much water. It’s easy to
+            take care of, looks great, and even
+            our neighbors noticed."</p>
+    </div>
+    <div class="tesimonial-box">
+        <h4 className="leading-[1.5]">Matt B.</h4>
+        <p className="leading-[1.45]">"Fall cleanup used to take us
+            forever, but BrightSprout handled
+            it in no time. They cleared the
+            leaves, mulched, and got
+            everything ready for winter. Huge
+            help." </p>
 
-                            <list-style: none; .flex-container { display: flex; justify-content: space-around; align-items: flex-start; .flex-container ul { list-style: none; padding: 15; margin: 15; ul></list-style:>
-                        <h2>Meet Our Team<h2>
-                                <div class="body-column">
-                                    <ul>
-                                        <li><img src="images/jamie.jpg" alt="Jamie"></li>
-                                        <li>
-                                            <h4>Jamie Rivers<h4>
+        <!--I dont know if this is from chatgpt or what, but
+                    please dont make names this long, or this complicated,
+                    especially if you dont know what it means-->
+        <!--also the li cant exist outside of <ol> or <ul> so idk what its doing here-->
+        <!--please delete-->
+        <li className="basis-0 box-border content-stretch flex flex-col gap-[32px] grow items-center min-h-px min-w-px overflow-visible p-0 relative shrink-0" data-name="Column 1"></li>
+    </div>
+    <div class="tesimonial-box">
+        <h4 className="leading-[1.5]">Derek & Monique H.</h4>
+        <p className="leading-[1.45]">"Carlos set up a drip irrigation <br>
+            system for us, and it’s been <br>
+            awesome. The plants are healthier, <br>
+            and we’re paying less on our water <br>
+            bill. Simple and smart."</p>
+    </div>
+    <div class="tesimonial-box">
+        <h4 className="leading-[1.5]">Sophia & Daniel K.</h4>
+        <p className="leading-[1.45]">"Jamie and the team made our <br>
+            backyard into a relaxing space <br>
+            with flowers, paths, and even a <br>
+            rainwater system. You can tell they <br>
+            really care about what they do."</p>
+    </div>
 
-                                        <li>
-                                            <h5>Owner & Designer<h5>
+    <div class="tesimonial-box">
+        <p className="leading-[1.5]">Evelyn R.</p>
 
-                                        <li>
-                                            <p>"I believe a garden should be both <br>
-                                                beautiful and kind to the planet." <br>
-                                                Jamie’s expertise in horticulture and <br>
-                                                sustainable design guides every project. <br>
-                                                With a keen eye for detail and a deep <br>
-                                                respect for the natural environment, Jamie <br>
-                                                ensures each landscape is not only <br>
-                                                visually stunning but ecologically <br>
-                                                responsible.
-                                        </li>
+        <h4 className="leading-[1.45]">"We had BrightSprout redo our <br>
+            backyard lawn, and it’s holding up <br>
+            really well. The turf is eco-friendly, <br>
+            and Mina’s team keeps it looking <br>
+            great with their regular visits."</h4>
+    </div>
 
-                                        <div class="body-column">
-                                            <ul>
-                                                <li><img src="images/carlos.jpg" alt="Carlos"></li>
-                                                <li>
-                                                    <h4>Carlos Lopez
-                                                </li>
-                                                <li>
-                                                    <h5>Irrigation Specialist
-                                                </li>
-                                                <li>
-                                                    <p>Carlos is the wizard behind our water-<br>
-                                                        efficient systems. His innovative irrigation <br>
-                                                        solutions ensure your landscape <br>
-                                                        flourishes while conserving one of our <br>
-                                                        most precious resources.
-                                                </li>
-
-                                                <div class="body-column">
-                                                    <ul>
-                                                        <li><img src="images/mina.png" alt="Mina"></li>
-                                                        <li>
-                                                            <h4>Mina Patel<h4>
-
-                                                        <li>
-                                                            <h5>Maintenance Lead
-
-                                                        <li>
-                                                            <p>Mina keeps every garden at its peak <br>
-                                                                through all seasons. Her knowledge of <br>
-                                                                plants, soils, and seasonal care routines <br>
-                                                                ensures that your landscape continues to <br>
-                                                                thrive long after installation.
-                                                        </li>
-
-
-                                                        <list-style: none; .flex-container { display: flex; justify-content: space-around; align-items: flex-start; .flex-container ul { list-style: none; padding: 15; margin: 15; ul></list-style:>
-                                                        <h2>Customer Testimonials</h2>
-
-                                                        <div class="tesimonial-box">
-                                                            <h5 className="leading-[1.5]">Laura P.</h5>
-                                                            <p className="leading-[1.45]">"BrightSprout gave our front yard a <br>
-                                                                whole new look with plants that <br>
-                                                                don’t need much water. It’s easy to <br>
-                                                                take care of, looks great, and even <br>
-                                                                our neighbors noticed."</p>
-
-                                                            <div class="tesimonial-box">
-                                                                <h4 className="leading-[1.5]">Matt B.</h4>
-                                                                <p className="leading-[1.45]">"Fall cleanup used to take us <br>
-                                                                    forever, but BrightSprout handled <br>
-                                                                    it in no time. They cleared the <br>
-                                                                    leaves, mulched, and got <br>
-                                                                    everything ready for winter. Huge <br>
-                                                                    help." </p>
-
-                                                                <li className="basis-0 box-border content-stretch flex flex-col gap-[32px] grow items-center min-h-px min-w-px overflow-visible p-0 relative shrink-0" data-name="Column 1">
-
-                                                                    <div class="tesimonial-box">
-                                                                        <h4 className="leading-[1.5]">Derek & Monique H.</h4>
-                                                                        <p className="leading-[1.45]">"Carlos set up a drip irrigation <br>
-                                                                            system for us, and it’s been <br>
-                                                                            awesome. The plants are healthier, <br>
-                                                                            and we’re paying less on our water <br>
-                                                                            bill. Simple and smart."</p>
-
-                                                                        <div class="tesimonial-box">
-                                                                            <h4 className="leading-[1.5]">Sophia & Daniel K.</h4>
-                                                                            <p className="leading-[1.45]">"Jamie and the team made our <br>
-                                                                                backyard into a relaxing space <br>
-                                                                                with flowers, paths, and even a <br>
-                                                                                rainwater system. You can tell they <br>
-                                                                                really care about what they do."</p>
-
-
-                                                                            <div class="tesimonial-box">
-                                                                                <p className="leading-[1.5]">Evelyn R.</p>
-
-                                                                                <h4 className="leading-[1.45]">"We had BrightSprout redo our <br>
-                                                                                    backyard lawn, and it’s holding up <br>
-                                                                                    really well. The turf is eco-friendly, <br>
-                                                                                    and Mina’s team keeps it looking <br>
-                                                                                    great with their regular visits."</h4>
-        
-
-         
     <!--FOOTER-->
     <footer class="footer">
         <div class="footer-container">
@@ -231,7 +252,7 @@
         </div>
 
         <p class="footer-copy">© 2026 BrightSprout<br>
-        This site was created as part of the Web Development II course at Northwest Missouri State University and was
+            This site was created as part of the Web Development II course at Northwest Missouri State University and was
             developed to learn and enhance the concepts within that course. It is not intended for public use.
         </p>
     </footer>
