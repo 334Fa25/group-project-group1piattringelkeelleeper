@@ -55,6 +55,7 @@ body {
     background-color: #fbf8f8;
     font-size: 16px;
     font-family: "Inter", sans-serif;
+    padding: 10
 }
 
 /*Main layout*/
@@ -67,6 +68,45 @@ body {
     display: flex;
 }
 
+
+
+.page-title {
+    font-size: 25px;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
+
+.main-description {
+    align-items: center;
+    justify-content: center;
+}
+
+.main-description p {
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    text-align: left
+        
+}
+
+.main-description img {
+    height: 50%;
+    float: right;
+}
+
+.making-home-better {
+    isolation: isolate;
+    background-color: #0D6627
+}
+
+.making-home-better h2{
+    
+}
+
+.making-home-better img{
+    height: 30%;
+    float: right;
+}
+    
 /*Footer Layout */
 .footer {
     background-color: #fbf8f8;
