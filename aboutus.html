@@ -4,7 +4,7 @@
     <title>
         Group 1 BrightSprout
     </title>
-    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/aboutus.css">
 </head>
 
 <body>
@@ -25,31 +25,41 @@
 
 
     <!--BODY-->
+    <div class="page-title">
     <h1> About Us</h1>
-    <p>Founded in 2018 by passionate horticulturist Jamie Rivers, BrightSprout Landscaping was born from a
-        vision: to create outdoor spaces that are not only stunning but also environmentally responsible.
-        What started as a small design studio in Missouri has grown into a dedicated team of landscaping
-        professionals, each bringing unique skills and creativity to every project. <br>
-        <br>
-        At BrightSprout, we believe that a landscape should do more than just look beautiful—it should work
-        in harmony with nature. By combining expert design with sustainable practices, we craft outdoor
-        spaces that thrive year-round, support local ecosystems, and reflect the unique character of each
-        property. Whether it’s a cozy backyard garden, a sprawling lawn, or a vibrant commercial property,
-        our designs are tailored to enhance the beauty and functionality of every space we touch.
-    </p>
+    </div>
+    
+    
+    <div class="main-description">
+        <img src="images/mina.png" alt="mina">
+        <p>Founded in 2018 by passionate horticulturist Jamie Rivers, BrightSprout Landscaping was born from a
+            vision: to create outdoor spaces that are not only stunning but also environmentally responsible.
+            What started as a small design studio in Missouri has grown into a dedicated team of landscaping
+            professionals, each bringing unique skills and creativity to every project. <br>
+            <br>
+            At BrightSprout, we believe that a landscape should do more than just look beautiful—it should work
+            in harmony with nature. By combining expert design with sustainable practices, we craft outdoor
+            spaces that thrive year-round, support local ecosystems, and reflect the unique character of each
+            property. Whether it’s a cozy backyard garden, a sprawling lawn, or a vibrant commercial property,
+            our designs are tailored to enhance the beauty and functionality of every space we touch.
+        </p>
+        
+    </div>
 
-    <img src="images/mina.png" alt="mina">
-
-
-    <div class="content-box">
+    
+    <div class="making-home-better">
+        <img src="images/redDoorHouse.jpg" alt="Red Door House">
+        
         <h2>Making Home Better</h2>
         <p>BrightSprout Landscaping is a local, eco-friendly landscaping company that designs, installs,
             and maintains outdoor spaces for homes and small businesses. We focus on sustainable plants,
             water-conscious irrigation, and creative garden design.</p>
-    </div>
+    
     <button onclick="location.href='services.html';">Beautify Your Landscape Now!</button> <!-- Buttions need javascript for the onclick, not href-->
-    <img src="images/redDoorHouse.jpg" alt="Red Door House">
-
+    
+</div>
+    
+    
     <div class="mission-box">
         <h2>Our Mission</h2>
         <p>At BrightSprout Landscaping, we’re dedicated to creating outdoor spaces that benefit both your
@@ -57,7 +67,7 @@
             eco-friendly design choices to responsible maintenance practices, we strive to make a positive
             impact on the planet while delivering landscapes that inspire and delight.</p>
     </div>
-    <div class="description-box">
+    <div class="why-choose-brightsprout">
         <img src="images/house1.jpg" alt="House 1">
         <h3>Why Choose BrightSprout?</h3>
         <!--For a list, you use ul (unordered list) and li to list it-->
@@ -68,8 +78,10 @@
         </ul>
         <!--Dont use in-line css to change the list style, do it in the css file later-->
     </div>
+    
+    
     <!--H2 cant have a div inside of it, it needs to be the other way around-->
-    <div class="body-column">
+    <div class="meet-our-team">
         <!--Make sure you close code with a / like below-->
         <h2>Meet Our Team</h2>
         <!-- similar thing here, when you push these things forward with tab
@@ -102,8 +114,6 @@
                 to be on the same level as the first div so you dont have
                 a div inside a div inside a div, at least in this case
                 since they are going to be the same class-->
-    </div>
-    <div class="body-column">
         <ul>
             <li><img src="images/carlos.jpg" alt="Carlos"></li>
             <li>
@@ -124,8 +134,6 @@
                     same with the divs, none of them were closed, this is what
                     lead to you just constantly having to tab in more and more-->
         </ul>
-    </div>
-    <div class="body-column">
         <ul>
             <li><img src="images/mina.png" alt="Mina"></li>
             <li>
@@ -145,16 +153,19 @@
         </ul>
     </div>
 
-    <div class="tesimonial-box">
+    <div class="tesimonial-title">
         <h2>Customer Testimonials</h2>
+    </div>    
+    
+    <div class="tesimonials">
         <h5 className="leading-[1.5]">Laura P.</h5>
         <p className="leading-[1.45]">"BrightSprout gave our front yard a <br>
             whole new look with plants that
             don’t need much water. It’s easy to
             take care of, looks great, and even
             our neighbors noticed."</p>
-    </div>
-    <div class="tesimonial-box">
+    
+
         <h4 className="leading-[1.5]">Matt B.</h4>
         <p className="leading-[1.45]">"Fall cleanup used to take us
             forever, but BrightSprout handled
@@ -168,25 +179,23 @@
                     especially if you dont know what it means-->
         <!--also the li cant exist outside of <ol> or <ul> so idk what its doing here-->
         <!--please delete-->
-    </div>
-    <div class="tesimonial-box">
+  
+
         <h4 className="leading-[1.5]">Derek & Monique H.</h4>
         <p className="leading-[1.45]">"Carlos set up a drip irrigation <br>
             system for us, and it’s been <br>
             awesome. The plants are healthier, <br>
             and we’re paying less on our water <br>
             bill. Simple and smart."</p>
-    </div>
-    <div class="tesimonial-box">
+
+
         <h4 className="leading-[1.5]">Sophia & Daniel K.</h4>
         <p className="leading-[1.45]">"Jamie and the team made our <br>
             backyard into a relaxing space <br>
             with flowers, paths, and even a <br>
             rainwater system. You can tell they <br>
             really care about what they do."</p>
-    </div>
 
-    <div class="tesimonial-box">
         <p className="leading-[1.5]">Evelyn R.</p>
 
         <h4 className="leading-[1.45]">"We had BrightSprout redo our <br>
@@ -194,7 +203,7 @@
             really well. The turf is eco-friendly, <br>
             and Mina’s team keeps it looking <br>
             great with their regular visits."</h4>
-    </div>
+</div>
 
     <!--FOOTER-->
     <footer class="footer">
