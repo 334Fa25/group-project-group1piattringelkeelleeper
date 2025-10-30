@@ -61,6 +61,8 @@ body {
 .index-body-container {
     background-color: #fbf8f8;
     font-family: "Inter", sans-serif;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 /*Requirement for hero opener*/
@@ -86,6 +88,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 30px;
 }
 
 .index-body-opener h1 {
@@ -145,10 +148,53 @@ body {
     background-color: #f2f2f2;
 }
 
+.index-body-review p {
+    text-align: center;
+    font-size: 24px;
+}
 
+#quote-open {
+    text-align: left;
+    font-size: 46;
+    margin: 0;
+    margin-left: 22%;
+}
 
+.index-body-review h3{
+    margin-top: -10;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: -10;
 
+    text-align: center;
+}
 
+#quote-close {
+    text-align: right;
+    font-size: 46;
+    margin: 0;
+    margin-right: 22%;
+}
+
+.review-client{
+    display: flex;
+    justify-content: center;
+}
+
+.review-client img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.review-client h4{
+    text-align: center;
+    margin-left: 10px;
+}
+
+.index-body-whychoose h4{
+
+}
 
 
 
