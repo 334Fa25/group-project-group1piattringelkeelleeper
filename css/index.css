@@ -96,11 +96,15 @@ body {
     font-weight: 700;
     font-size: 56px;
     margin-bottom: 10px;
+    /*TEMPORARY!!!*/
+    background-color: antiquewhite;
 }
 
 .index-body-opener p {
     font-weight: 500;
-    color: #777;
+    /*color: #777;*/
+    /*TEMPORARY!!!!*/
+    background-color: antiquewhite;
     font-size: 20px;
     margin-top: 10px;
 }
@@ -138,9 +142,9 @@ body {
     border-color: #333;
 }
 
-/*White aboutus button*/
+/*Transparent/White aboutus button*/
 .index-aboutus-button {
-    background-color: transparent;
+    /*background-color: transparent;*/
     color: #000;
     border: 2px solid #d1d1d1;
 }
@@ -211,13 +215,13 @@ body {
     justify-content: center;
 }
 
-.whychoose-text h4{
+.whychoose-text h4 {
     font-size: 28;
     font-weight: 700;
     margin-bottom: 10
 }
 
-.whychoose-text p{
+.whychoose-text p {
     font-size: 18;
     color: #777;
 }
@@ -259,13 +263,13 @@ body {
     justify-content: center;
 }
 
-.ourvision-text h4{
+.ourvision-text h4 {
     font-size: 28;
     font-weight: 700;
     margin-bottom: 10
 }
 
-.ourvision-text p{
+.ourvision-text p {
     font-size: 18;
     color: #777;
 }
@@ -290,15 +294,6 @@ body {
     cursor: pointer;
     width: fit-content;
 }
-
-
-
-
-
-
-
-
-
 
 /*Footer Layout */
 .footer {
@@ -410,6 +405,62 @@ body {
         width: 100%;
     }
 
+    body {
+        font-size: 15px;
+    }
+
+    .index-body-container {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    /* Hero opener */
+    .index-body-opener h1 {
+        font-size: 44px;
+    }
+
+    .index-body-opener p {
+        font-size: 18px;
+    }
+
+    /* Quote section */
+    .index-body-review p {
+        font-size: 20px;
+    }
+
+    .index-body-review h3 {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    /* Why choose + Our vision sections */
+    .index-body-whychoose,
+    .index-body-ourvision {
+        gap: 1.5rem;
+        padding: 1.5rem;
+    }
+
+    .whychoose-text h4,
+    .ourvision-text h4 {
+        font-size: 24px;
+    }
+
+    .whychoose-text p,
+    .ourvision-text p {
+        font-size: 16px;
+    }
+
+    .index-body-whychoose img,
+    .index-body-ourvision img {
+        max-height: 220px;
+        object-position: center center;
+    }
+
+    .index-body-whychoose button,
+    .index-body-ourvision button {
+        padding: 0.6rem 2rem;
+    }
+
     .footer-container {
         flex-direction: column;
         align-items: center;
@@ -436,7 +487,6 @@ body {
         justify-content: center;
         gap: 10px;
         flex-wrap: nowrap;
-        /* keep them side by side even on small screens */
     }
 
     .logo-title img {
@@ -453,5 +503,89 @@ body {
         flex-direction: column;
         align-items: center;
         gap: 10px;
+    }
+
+    /* Body */
+    body {
+        font-size: 14px;
+    }
+
+    .index-body-container {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    /* Hero opener */
+    .index-body-opener {
+        min-height: 80vh;
+        background-position: center center;
+        border-radius: 20px;
+        padding: 1rem;
+    }
+
+    .index-body-opener h1 {
+        font-size: 32px;
+    }
+
+    .index-body-opener p {
+        font-size: 16px;
+    }
+
+    .button-row {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* Quote section */
+    .index-body-review p {
+        font-size: 18px;
+    }
+
+    #quote-open,
+    #quote-close {
+        font-size: 32px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .index-body-review h3 {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    /* Why choose + Our vision sections */
+    .index-body-whychoose,
+    .index-body-ourvision {
+        flex-direction: column;
+        text-align: center;
+        padding: 1.25rem;
+    }
+
+    .index-body-whychoose img,
+    .index-body-ourvision img {
+        order: -1;
+        /* puts the image above text hopefully */
+        width: 100%;
+        max-height: 200px;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+
+    .whychoose-text h4,
+    .ourvision-text h4 {
+        font-size: 22px;
+    }
+
+    .whychoose-text p,
+    .ourvision-text p {
+        font-size: 15px;
+        margin-top: 0.5rem;
+    }
+
+    .index-body-whychoose button,
+    .index-body-ourvision button {
+        margin: 1rem auto 0 auto;
+        width: fit-content;
+        padding: 0.65rem 2rem;
     }
 }
