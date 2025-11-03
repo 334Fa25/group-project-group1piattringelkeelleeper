@@ -94,6 +94,79 @@ h4 {
     margin: 30px auto;
     max-width: 1000px;
 }
+
+.welcome-section h2{
+    font-size: 35px;
+    font-family: "Inter", sans-serif;
+    text-align: left;
+    padding-top: 100px;
+    padding-left: 80px;
+}
+
+.welcome-section p{
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    text-align: left;
+    width: 800;
+    padding-left: 80px;
+}
+
+.welcome-section img{
+    display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px; 
+}
+
+.transformation1 h4 {
+    font-size: 35px;
+    font-family: "Inter", sans-serif;
+}
+
+.transformation1 img {
+    display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px; 
+}
+
+.transformation2 img {
+    display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px; 
+    padding-top: 80px;
+    border-radius: 20px;
+}
+
+.house-descript img {
+    display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px; 
+    padding-bottom: 80px;
+    border-radius: 20px;
+}
+
+.transformations-container {
+    background-color: #836848;
+
+}
+
+.transformations-container p{
+    color: #f6f9f3;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
 /*Footer Layout */
 .footer {
     background-color: #fbf8f8;
