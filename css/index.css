@@ -425,6 +425,13 @@ body {
     }
 
     /* Quote section */
+    #quote-open,
+    #quote-close {
+        font-size: 32px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
     .index-body-review p {
         font-size: 20px;
     }
