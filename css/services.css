@@ -78,16 +78,15 @@ body {
 
 
 
-.services-category-gardendesignimage{
+.services-category-gardendesignimage img{
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
     gap: 20px;
     padding: 10px;
     width: 400px;
-    max-height: fit-content;
+    max-width: 100%;
     height: auto;
-    object-fit: cover;
     flex-wrap: nowrap;
     border-radius: 20px;
 }
@@ -177,7 +176,7 @@ body {
 
 
 
-.services-category-lawninstallationandmaintenanceimage{
+.services-category-lawninstallationandmaintenanceimage img{
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
@@ -194,14 +193,18 @@ body {
 
 .services-category-lawninstallationandmaintenance h1{
     order: 1;
-    font-size: 16px
-
+    font-size: 16px;
+    padding-left: 30px;
 }
 
 .services-category-lawninstallationandmaintenance p{
       order: 3;
     font-size: 13px;
     text-align: left;
+    justify-content: center;
+    align-content: flex-start;
+    width: 100%;
+    padding-left: 30px;
 }
 
 .services-category-lawninstallationandmaintenance img{
@@ -213,15 +216,18 @@ body {
     border-radius: 20px;
 }
 
-.services-category-lawninstallationandmaintenance button{
+.services-category-lawnbutton {
    order: 3;
-    align-self: flex-end;
+    align-self: flex-start;
     height: 35;
     width: 90;
     border-radius: 10px;
+    padding-left: 30px;
+   
 }
 .services-category-lawninstallationandmaintenance button:hover {
   background-color: #D3D3D3;
+
 }
 
 .container {
@@ -238,12 +244,7 @@ body {
     object-fit: cover;
 }
 
-/* Left side: header, paragraph, button */
-.services-category-lawninstallationandmaintenanceimage {
-  max-width: 100%;
-    height:auto;
-    flex-wrap: nowrap;/* Prevents text from stretching too far */
-}
+
 
 /* Style individual elements as you like */
 .services-category-lawninstallationandmaintenance h1 {
@@ -284,7 +285,7 @@ body {
 }
 
 
-.services-category-eco-irrigationsystemsimage{
+.services-category-eco-irrigationsystemsimage img{
        display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
@@ -292,10 +293,9 @@ body {
     padding: 10px;
     width: 400px;
     max-width: 100%;
-    max-height: fit-content;
     height: auto;
-    object-fit: cover;
     flex-wrap: nowrap;
+    border-radius: 20px;
     
 }
 
@@ -332,51 +332,53 @@ body {
   background-color: #D3D3D3;
 }
 
---
-.container {
-  display: flex;
-  justify-content: space-around; /* Push left and right sections apart */
-  align-items: center;            /* Vertically align elements */
-  padding: 5px;
-  height: 45%;                  /* Optional: make it fill the full viewport height */
-  box-sizing: border-box;
-}
-.services-category-seasonalclean-upimage {
+
+
+.services-category-seasonalclean-upimage img{
       display: flex;
     flex-direction: column-reverse;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 20px;
     padding: 10px;
     width: 400px;
+    max-width: 100%;
+    height: auto;
     flex-wrap: nowrap;
+    border-radius: 20px;
 }
 .services-category-seasonalclean-up h1{
     order: 1;
-    font-size: 16px
-
+    font-size: 16px;
+    padding-left: 30px;
 }
 
 .services-category-seasonalclean-up p{
       order: 3;
     font-size: 13px;
     text-align: left;
-   
-   
-
+    justify-content: center;
+    align-content: flex-start;
+    width: 100%; 
+    padding-left: 30px;
 }
 
-.services-category-seasonalclean-up img{
-      order: 4;
-   margin-left: right;
-    height: 45%;
+.services-category-seasonalclean-upimage img{
+    order: 4;
+    margin-left: right;
     flex-wrap: nowrap;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
 }
 
-.services-category-seasonalclean-up button{
-   order: 3;
+
+.services-category-seasonalbutton {  
+    align-content: flex-start;
+    border-radius: 10px;
+    order: 3;
     height: 35;
     width: 90;
-    border-radius: 10px;
+    padding-left: 30px;
 }
 
 
@@ -386,21 +388,61 @@ body {
 
 .container {
   display: flex;
-  justify-content: center; /* Push left and right sections apart */
+  justify-content: space-around; /* Push left and right sections apart */
   align-items: center;            /* Vertically align elements */
   padding: 5px;
-  height: 45vh;                  /* Optional: make it fill the full viewport height */
+  height: auto;                  /* Optional: make it fill the full viewport height */
   box-sizing: border-box;
+    max-width: 100%;
+    object-fit: cover;
 }
 
-.services-category-bottombutton button{
-    order:3;
-    height: 70;
-    width: 130;
+.services-category-seasonalclean-up h1{
+    order:1;
+    font-size: 16px;
+    margin-bottom: 1rem;
+}
+
+.services-category-seasonalclean-up p {
+    font-size: 13px;
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.services-category-seasonalclean-up button {
+    height: 35;
+    width: 90;
+    cursor: pointer;
     border-radius: 10px;
-    display: flex;
-    justify-content:center;
-    align-items:center;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-around; /* Push left and right sections apart */
+  align-items: center;            /* Vertically align elements */
+  padding: 5px;
+  height: auto;                  /* Optional: make it fill the full viewport height */
+  box-sizing: border-box;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.services-category-bottombutton {
+    order:3;
+    align-self: flex-start;
+    height: 60;
+    width: 150;
+    border-radius: 20px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+.services-category-bottombutton button {
+   height: 60;
+    width: 150;
+    cursor: pointer;
+    border-radius: 20px;
 }
 
 
