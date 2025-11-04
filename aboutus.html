@@ -1,9 +1,13 @@
+<!DOCTYPE html>
+
 <html lang=en>
 
 <head>
     <title>
-        Group 1 BrightSprout
+        BrightSprout Landscaping
     </title>
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/Leaf%20Logo.png">
+    <meta name="description" content="Web Development II Brightsprout client website About Us">
     <link rel="stylesheet" href="css/aboutus.css">
 </head>
 
@@ -11,7 +15,10 @@
     <!--HEADER-->
     <header class="header">
         <div class="logo-title">
-            <img src=images/Leaf%20Logo.png alt=Logo>
+            <a href="index.html">
+                <img src=images/Leaf%20Logo.png alt=Logo href="index.html">
+            </a>
+            
             <h1>Brightsprout Landscaping</h1>
         </div>
 
@@ -26,12 +33,12 @@
 
     <!--BODY-->
     <div class="page-title">
-    <h1> About Us</h1>
+        <h2> About Us</h2>
     </div>
-    
-    
+
+
     <div class="main-description">
-        
+
         <p>Founded in 2018 by passionate horticulturist Jamie Rivers, BrightSprout Landscaping was born from a
             vision: to create outdoor spaces that are not only stunning but also environmentally responsible.
             What started as a small design studio in Missouri has grown into a dedicated team of landscaping
@@ -46,20 +53,20 @@
         <img src="images/mina.png" alt="mina">
     </div>
 
-    
+
     <div class="making-home-better">
         <img src="images/redDoorHouse.jpg" alt="Red Door House">
-        
+
         <h2>Making Home Better</h2>
         <p>BrightSprout Landscaping is a local, eco-friendly landscaping company that designs, installs,
             and maintains outdoor spaces for homes and small businesses. We focus on sustainable plants,
             water-conscious irrigation, and creative garden design.</p>
-    
-    <button onclick="location.href='services.html';">Beautify Your Landscape Now!</button> <!-- Buttions need javascript for the onclick, not href-->
-    
-</div>
-    
-    
+
+        <button onclick="location.href='services.html';">Beautify Your Landscape Now!</button> <!-- Buttions need javascript for the onclick, not href-->
+
+    </div>
+
+
     <div class="mission-box">
         <h2>Our Mission</h2>
         <p>At BrightSprout Landscaping, we’re dedicated to creating outdoor spaces that benefit both your
@@ -70,39 +77,39 @@
     <div class="why-choose-brightsprout">
         <img src="images/house1.jpg" alt="House 1">
         <section>
-        <h3>Why Choose BrightSprout?</h3>
-        <!--For a list, you use ul (unordered list) and li to list it-->
-        <ul>
-            <li>Locally-focused designs that suit Missouri’s climate and soil.</li>
-            <li>Expert care from a team passionate about plants, beauty, and sustainability.</li>
-            <li>Innovative solutions that balance aesthetics with environmental responsibility.</li>
-        </ul>
+            <h3>Why Choose BrightSprout?</h3>
+            <!--For a list, you use ul (unordered list) and li to list it-->
+            <ul>
+                <li>Locally-focused designs that suit Missouri’s climate and soil.</li>
+                <li>Expert care from a team passionate about plants, beauty, and sustainability.</li>
+                <li>Innovative solutions that balance aesthetics with environmental responsibility.</li>
+            </ul>
         </section>
         <!--Dont use in-line css to change the list style, do it in the css file later-->
     </div>
-    
-    
+
+
     <!--H2 cant have a div inside of it, it needs to be the other way around-->
     <div class="meet-our-team-title">
-    <h2>Meet Our Team</h2>
+        <h2>Meet Our Team</h2>
     </div>
-    
+
     <div class="meet-our-team-imgs">
         <ul>
-    <li><img src="images/jamie.jpg" alt="Jamie"></li>
-    <li><img src="images/carlos.jpg" alt="Carlos"></li>
-    <li><img src="images/mina.png" alt="Mina"></li>
+            <li><img src="images/jamie.jpg" alt="Jamie"></li>
+            <li><img src="images/carlos.jpg" alt="Carlos"></li>
+            <li><img src="images/mina.png" alt="Mina"></li>
         </ul>
     </div>
-    
+
     <div class="meet-our-team">
         <!--Make sure you close code with a / like below-->
-        
+
         <!-- similar thing here, when you push these things forward with tab
                 it makes the code thing you are trying to have UL as a child of h2
                 so just keep them on the same line like this-->
         <ul>
-            
+
             <li>
                 <h4>Jamie Rivers</h4>
                 <!--Same thing here, close the <li> with </li>-->
@@ -123,14 +130,14 @@
                     responsible.
             </li>
         </ul>
-        
+
         <!--This was pushed forward, which made the code think
                 it was a child of the UL, which its not, it also needs
                 to be on the same level as the first div so you dont have
                 a div inside a div inside a div, at least in this case
                 since they are going to be the same class-->
         <ul>
-            
+
             <li>
                 <h4>Carlos Lopez</h4>
             </li>
@@ -150,7 +157,7 @@
                     lead to you just constantly having to tab in more and more-->
         </ul>
         <ul>
-            
+
             <li>
                 <h4>Mina Patel</h4>
 
@@ -168,64 +175,64 @@
         </ul>
     </div>
 
-<div class="tesimonials-back">
-  <div class="tesimonials-title">
-    <h2>Customer Testimonials</h2>
-    </div>
-    
-    
-    <div class="tesimonials">
-        
-        
-        <section>
-        <h4 className="leading-[1.5]">Laura P.</h4>
-        <p className="leading-[1.45]">"BrightSprout gave our front yard a
-            whole new look with plants that
-            don’t need much water. It’s easy to
-            take care of, looks great, and even
-            our neighbors noticed."</p>
-        </section>
-    
-        <section>
-        <h4 className="leading-[1.5]">Matt B.</h4>
-        <p className="leading-[1.45]">"Fall cleanup used to take us
-            forever, but BrightSprout handled
-            it in no time. They cleared the
-            leaves, mulched, and got
-            everything ready for winter. Huge
-            help." </p>
-        </section>
+    <div class="tesimonials-back">
+        <div class="tesimonials-title">
+            <h2>Customer Testimonials</h2>
+        </div>
 
-        <section>
-        <h4 className="leading-[1.5]">Derek & Monique H.</h4>
-        <p className="leading-[1.45]">"Carlos set up a drip irrigation 
-            system for us, and it’s been 
-            awesome. The plants are healthier, 
-            and we’re paying less on our water 
-            bill. Simple and smart."</p>
-        </section>
- 
-        <section>
-        <h4 className="leading-[1.5]">Sophia & Daniel K.</h4>
-        <p className="leading-[1.45]">"Jamie and the team made our 
-            backyard into a relaxing space
-            with flowers, paths, and even a 
-            rainwater system. You can tell they 
-            really care about what they do."</p>
-        </section>
-        
-        <section>
-        <h4 className="leading-[1.5]">Evelyn R.</h4>
 
-        <p className="leading-[1.45]">"We had BrightSprout redo our 
-            backyard lawn, and it’s holding up 
-            really well. The turf is eco-friendly, 
-            and Mina’s team keeps it looking 
-            great with their regular visits."</p>
-        </section>
+        <div class="tesimonials">
+
+
+            <section>
+                <h4 className="leading-[1.5]">Laura P.</h4>
+                <p className="leading-[1.45]">"BrightSprout gave our front yard a
+                    whole new look with plants that
+                    don’t need much water. It’s easy to
+                    take care of, looks great, and even
+                    our neighbors noticed."</p>
+            </section>
+
+            <section>
+                <h4 className="leading-[1.5]">Matt B.</h4>
+                <p className="leading-[1.45]">"Fall cleanup used to take us
+                    forever, but BrightSprout handled
+                    it in no time. They cleared the
+                    leaves, mulched, and got
+                    everything ready for winter. Huge
+                    help." </p>
+            </section>
+
+            <section>
+                <h4 className="leading-[1.5]">Derek & Monique H.</h4>
+                <p className="leading-[1.45]">"Carlos set up a drip irrigation
+                    system for us, and it’s been
+                    awesome. The plants are healthier,
+                    and we’re paying less on our water
+                    bill. Simple and smart."</p>
+            </section>
+
+            <section>
+                <h4 className="leading-[1.5]">Sophia & Daniel K.</h4>
+                <p className="leading-[1.45]">"Jamie and the team made our
+                    backyard into a relaxing space
+                    with flowers, paths, and even a
+                    rainwater system. You can tell they
+                    really care about what they do."</p>
+            </section>
+
+            <section>
+                <h4 className="leading-[1.5]">Evelyn R.</h4>
+
+                <p className="leading-[1.45]">"We had BrightSprout redo our
+                    backyard lawn, and it’s holding up
+                    really well. The turf is eco-friendly,
+                    and Mina’s team keeps it looking
+                    great with their regular visits."</p>
+            </section>
+        </div>
     </div>
-</div>
-    
+
     <!--FOOTER-->
     <footer class="footer">
         <div class="footer-container">
