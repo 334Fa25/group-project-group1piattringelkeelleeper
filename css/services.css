@@ -567,6 +567,86 @@ body {
         justify-content: center;
         width: 100%;
     }
+    
+    @media (max-width:768px)  {
+        .container {
+            flex-direction: column;
+        }
+        
+        .services-category-gardendesignimage {
+            order:2;
+        }
+        
+        .services-category-gardendesign h1 {
+            order: 1;
+        }
+    }
+       @media (max-width:768px)  {
+        .container {
+            flex-direction: column;
+        }
+           
+           .services-category-lawninstallationandmaintenance h1 {
+               order:1;
+               padding-left: 1px;
+            }
+           
+           .services-category-lawninstallationandmaintenance p {
+               order:1;
+               padding-left: 1px;
+            }
+        
+           .services-category-lawnbutton {
+               order:1;
+               padding-left:1px;
+           }
+           
+           
+           .services-category-lawninstallationandmaintenanceimage  {
+            order: 2;
+        }
+        
+       
+    }
+    
+     @media (max-width:768px)  {
+        .container {
+            flex-direction: column;
+        }
+         
+         .services-category-seasonalclean-up h1{
+             order:1;
+             padding-left: 1px;
+         }
+         
+         .services-category-seasonalclean-up p{
+             order:1;
+             padding-left: 1px;
+         }
+         
+          .services-category-seasonalclean-up p{
+             order:1;
+             padding-left: 1px;
+         }
+         
+         .services-category-seasonalbutton {
+             order:1;
+             padding-left: 1px;
+         }
+         
+         .services-category-seasonalclean-upimage{
+             order:2;
+             
+             
+     @media (min-width:768px)  {
+         
+         .services-category-bottombutton button {
+            float: right;
+    
+         }
+         
+         
+             }
 
     .footer-container {
         flex-direction: column;
