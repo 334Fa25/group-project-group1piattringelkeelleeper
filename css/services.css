@@ -78,7 +78,7 @@ body {
 
 
 
-.services-category-gardendesignimage img{
+.services-category-gardendesignimage img {
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
@@ -91,33 +91,33 @@ body {
     border-radius: 20px;
 }
 
-.services-category-gardendesign h1{
+.services-category-gardendesign h1 {
     order: 1;
     font-size: 16px
 }
 
 
-.services-category-gardendesign p{
+.services-category-gardendesign p {
     order: 3;
     font-size: 13px;
     text-align: left;
     justify-content: center;
     align-content: flex-start;
     width: 100%;
-    
+
 }
 
-.services-category-gardendesign img{
-   order: 4;
+.services-category-gardendesign img {
+    order: 4;
     align-content: flex-start;
-  max-width:100%;
+    max-width: 100%;
     width: 50%;
     height: auto;
     flex-wrap: nowrap;
     border-radius: 20px;
 }
 
-.services-category-gardendesign button{
+.services-category-gardendesign button {
     order: 4;
     height: 35;
     width: 90;
@@ -125,49 +125,53 @@ body {
 }
 
 .services-category-gardendesign button:hover {
-  background-color: #D3D3D3;
+    background-color: #D3D3D3;
 }
 
 /* Overall layout */
 .container {
-  display: flex;
-  justify-content: space-around; /* Push left and right sections apart */
-  align-items: center;            /* Vertically align elements */
-  padding: 5px;
-  height: auto;                  /* Optional: make it fill the full viewport height */
-  box-sizing: border-box;
-     max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* Push left and right sections apart */
+    align-items: center;
+    /* Vertically align elements */
+    padding: 5px;
+    height: auto;
+    /* Optional: make it fill the full viewport height */
+    box-sizing: border-box;
+    max-width: 100%;
     object-fit: cover;
 }
 
 /* Left side: header, paragraph, button */
 .services-category-gardendesignimage {
-  max-width: 100%; 
-    height:auto;
-    flex-wrap: nowrap;/* Prevents text from stretching too far */
+    max-width: 100%;
+    height: auto;
+    flex-wrap: nowrap;
+    /* Prevents text from stretching too far */
 }
 
 /* Style individual elements as you like */
 .services-category-gardendesign h1 {
     order: 1;
-  font-size: 16px;
-  margin-bottom: 1rem;
+    font-size: 16px;
+    margin-bottom: 1rem;
 }
 
 .services-category-gardendesign p {
-  font-size: 13px;
-  margin-bottom: 1.5rem;
+    font-size: 13px;
+    margin-bottom: 1.5rem;
 }
 
 .services-category-gardendesign button {
-  height: 35;
+    height: 35;
     width: 90;
-  cursor: pointer;
-  border-radius: 10px;
+    cursor: pointer;
+    border-radius: 10px;
 }
 
 .services-category-gardendesign button:hover {
-  background-color: #D3D3D3;
+    background-color: #D3D3D3;
 }
 
 
@@ -176,7 +180,7 @@ body {
 
 
 
-.services-category-lawninstallationandmaintenanceimage img{
+.services-category-lawninstallationandmaintenanceimage img {
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
@@ -187,18 +191,18 @@ body {
     height: auto;
     flex-wrap: nowrap;
     border-radius: 20px;
-    
+
 }
 
 
-.services-category-lawninstallationandmaintenance h1{
+.services-category-lawninstallationandmaintenance h1 {
     order: 1;
     font-size: 16px;
     padding-left: 30px;
 }
 
-.services-category-lawninstallationandmaintenance p{
-      order: 3;
+.services-category-lawninstallationandmaintenance p {
+    order: 3;
     font-size: 13px;
     text-align: left;
     justify-content: center;
@@ -207,86 +211,84 @@ body {
     padding-left: 30px;
 }
 
-.services-category-lawninstallationandmaintenance img{
-      order: 4;
-   margin-left: right;
+.services-category-lawninstallationandmaintenance img {
+    order: 4;
+    margin-left: right;
     flex-wrap: nowrap;
-    max-width:100%;
-    height:auto;
+    max-width: 100%;
+    height: auto;
     border-radius: 20px;
 }
 
 .services-category-lawnbutton {
-   order: 3;
+    order: 3;
     align-self: flex-start;
     height: 35;
     width: 90;
     border-radius: 10px;
     padding-left: 30px;
-   
+
 }
+
 .services-category-lawninstallationandmaintenance button:hover {
-  background-color: #D3D3D3;
+    background-color: #D3D3D3;
 
 }
 
 .container {
-  display: flex;
-  justify-content: space-around; /* Push left and right sections apart */
-  align-items: center;            /* Vertically align elements */
-  padding: 5px;
-  height: auto;                  /* Optional: make it fill the full viewport height */
-  box-sizing: border-box; /* Push left and right sections apart */
-                         /* Vertically align elements */
-                          /* Optional: make it fill the full viewport height */
-
-     max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    height: auto;
+    box-sizing: border-box;
+    max-width: 100%;
     object-fit: cover;
 }
 
 
 
-/* Style individual elements as you like */
+
 .services-category-lawninstallationandmaintenance h1 {
     order: 1;
-  font-size: 16px;
-  margin-bottom: 1rem;
+    font-size: 16px;
+    margin-bottom: 1rem;
 }
 
 .services-category-lawninstallationandmaintenance p {
-  font-size: 13px;
-  margin-bottom: 1.5rem;
-    text-align:left;
+    font-size: 13px;
+    margin-bottom: 1.5rem;
+    text-align: left;
 }
 
 .services-category-lawninstallationandmaintenance button {
-  height: 35;
+    height: 35;
     width: 90;
-  cursor: pointer;
-  border-radius: 10px;
+    cursor: pointer;
+    border-radius: 10px;
 }
 
 .services-category-lawninstallationandmaintenance button:hover {
-  background-color: #D3D3D3;
+    background-color: #D3D3D3;
 }
 
 
 .container {
-  display: flex;
-  justify-content: space-around; /* Push left and right sections apart */
-  align-items: center;            /* Vertically align elements */
-  padding: 5px;
-  max-height: fit-content;                 /* Optional: make it fill the full viewport height */
-  box-sizing: border-box;
-     max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    max-height: fit-content;
+    box-sizing: border-box;
+    max-width: 100%;
     object-fit: cover;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
 }
 
 
-.services-category-eco-irrigationsystemsimage img{
-       display: flex;
+.services-category-eco-irrigationsystemsimage img {
+    display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
     gap: 20px;
@@ -296,15 +298,15 @@ body {
     height: auto;
     flex-wrap: nowrap;
     border-radius: 20px;
-    
+
 }
 
-.services-category-eco-irrigationsystems h1{
+.services-category-eco-irrigationsystems h1 {
     order: 1;
     font-size: 16px
 }
 
-.services-category-eco-irrigationsystems p{
+.services-category-eco-irrigationsystems p {
     order: 3;
     font-size: 13px;
     text-align: left;
@@ -312,16 +314,16 @@ body {
 
 .services-category-eco-irrigationsystems img {
     order: 4;
-   margin-left: right;
-      align-items: center;            /* Vertically align elements */
-  padding: 5px;                 /* Optional: make it fill the full viewport height */
-  box-sizing: border-box;
-     max-height: 100%;
+    margin-left: right;
+    align-items: center;
+    padding: 5px;
+    box-sizing: border-box;
+    max-height: 100%;
     width: auto;
     flex-wrap: nowrap;
 }
 
-.services-category-eco-irrigationsystems button{
+.services-category-eco-irrigationsystems button {
     order: 3;
     height: 35;
     width: 90;
@@ -329,13 +331,13 @@ body {
 }
 
 .services-category-eco-irrigationsystems button:hover {
-  background-color: #D3D3D3;
+    background-color: #D3D3D3;
 }
 
 
 
-.services-category-seasonalclean-upimage img{
-      display: flex;
+.services-category-seasonalclean-upimage img {
+    display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
     gap: 20px;
@@ -346,23 +348,24 @@ body {
     flex-wrap: nowrap;
     border-radius: 20px;
 }
-.services-category-seasonalclean-up h1{
+
+.services-category-seasonalclean-up h1 {
     order: 1;
     font-size: 16px;
     padding-left: 30px;
 }
 
-.services-category-seasonalclean-up p{
-      order: 3;
+.services-category-seasonalclean-up p {
+    order: 3;
     font-size: 13px;
     text-align: left;
     justify-content: center;
     align-content: flex-start;
-    width: 100%; 
+    width: 100%;
     padding-left: 30px;
 }
 
-.services-category-seasonalclean-upimage img{
+.services-category-seasonalclean-upimage img {
     order: 4;
     margin-left: right;
     flex-wrap: nowrap;
@@ -372,7 +375,7 @@ body {
 }
 
 
-.services-category-seasonalbutton {  
+.services-category-seasonalbutton {
     align-content: flex-start;
     border-radius: 10px;
     order: 3;
@@ -383,22 +386,22 @@ body {
 
 
 .services-category-seasonalclean-up button:hover {
-  background-color: #D3D3D3;
+    background-color: #D3D3D3;
 }
 
 .container {
-  display: flex;
-  justify-content: space-around; /* Push left and right sections apart */
-  align-items: center;            /* Vertically align elements */
-  padding: 5px;
-  height: auto;                  /* Optional: make it fill the full viewport height */
-  box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    height: auto;
+    box-sizing: border-box;
     max-width: 100%;
     object-fit: cover;
 }
 
-.services-category-seasonalclean-up h1{
-    order:1;
+.services-category-seasonalclean-up h1 {
+    order: 1;
     font-size: 16px;
     margin-bottom: 1rem;
 }
@@ -418,18 +421,18 @@ body {
 
 
 .container {
-  display: flex;
-  justify-content: space-around; /* Push left and right sections apart */
-  align-items: center;            /* Vertically align elements */
-  padding: 5px;
-  height: auto;                  /* Optional: make it fill the full viewport height */
-  box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    height: auto;
+    box-sizing: border-box;
     max-width: 100%;
     object-fit: cover;
 }
 
 .services-category-bottombutton {
-    order:3;
+    order: 3;
     align-self: flex-start;
     height: 60;
     width: 150;
@@ -439,7 +442,7 @@ body {
 }
 
 .services-category-bottombutton button {
-   height: 60;
+    height: 60;
     width: 150;
     cursor: pointer;
     border-radius: 20px;
@@ -447,8 +450,8 @@ body {
 
 
 .services-category-bottombutton button:hover {
-  background-color: #D3D3D3;
-   
+    background-color: #D3D3D3;
+
 }
 
 
@@ -567,129 +570,130 @@ body {
         justify-content: center;
         width: 100%;
     }
-    
-    @media (max-width:768px)  {
+
+    @media (max-width:768px) {
         .container {
             flex-direction: column;
         }
-        
+
         .services-category-gardendesignimage {
-            order:2;
+            order: 2;
         }
-        
+
         .services-category-gardendesign h1 {
             order: 1;
         }
     }
-       @media (max-width:768px)  {
+
+    @media (max-width:768px) {
         .container {
             flex-direction: column;
         }
-           
-           .services-category-lawninstallationandmaintenance h1 {
-               order:1;
-               padding-left: 1px;
-            }
-           
-           .services-category-lawninstallationandmaintenance p {
-               order:1;
-               padding-left: 1px;
-            }
-        
-           .services-category-lawnbutton {
-               order:1;
-               padding-left:1px;
-           }
-           
-           
-           .services-category-lawninstallationandmaintenanceimage  {
+
+        .services-category-lawninstallationandmaintenance h1 {
+            order: 1;
+            padding-left: 1px;
+        }
+
+        .services-category-lawninstallationandmaintenance p {
+            order: 1;
+            padding-left: 1px;
+        }
+
+        .services-category-lawnbutton {
+            order: 1;
+            padding-left: 1px;
+        }
+
+
+        .services-category-lawninstallationandmaintenanceimage {
             order: 2;
         }
-        
-       
+
+
     }
-    
-     @media (max-width:768px)  {
+
+    @media (max-width:768px) {
         .container {
             flex-direction: column;
         }
-         
-         .services-category-seasonalclean-up h1{
-             order:1;
-             padding-left: 1px;
-         }
-         
-         .services-category-seasonalclean-up p{
-             order:1;
-             padding-left: 1px;
-         }
-         
-          .services-category-seasonalclean-up p{
-             order:1;
-             padding-left: 1px;
-         }
-         
-         .services-category-seasonalbutton {
-             order:1;
-             padding-left: 1px;
-         }
-         
-         .services-category-seasonalclean-upimage{
-             order:2;
-             
-             
-     @media (min-width:768px)  {
-         
-         .services-category-bottombutton button {
-            float: right;
-    
-         }
-         
-         
-             }
 
-    .footer-container {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
+        .services-category-seasonalclean-up h1 {
+            order: 1;
+            padding-left: 1px;
+        }
 
-    .footer-links {
-        justify-content: center;
-    }
+        .services-category-seasonalclean-up p {
+            order: 1;
+            padding-left: 1px;
+        }
 
-    .footer-column {
-        min-width: 150px;
-    }
-}
+        .services-category-seasonalclean-up p {
+            order: 1;
+            padding-left: 1px;
+        }
 
-/* Mobile */
-@media (max-width: 800px) {
-    .header {
-        flex-direction: column;
-        padding: 15px;
-    }
+        .services-category-seasonalbutton {
+            order: 1;
+            padding-left: 1px;
+        }
 
-    .logo-title {
-        justify-content: center;
-        gap: 10px;
-        flex-wrap: nowrap;
-        /* keep them side by side even on small screens */
-    }
+        .services-category-seasonalclean-upimage {
+            order: 2;
 
-    .logo-title img {
-        height: 45px;
-    }
 
-    .logo-title h1 {
-        font-size: 22px;
-        text-align: left;
-        width: auto;
-    }
+            @media (min-width:768px) {
 
-    .header-links {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-    }
-}
+                .services-category-bottombutton button {
+                    float: right;
+
+                }
+
+
+            }
+
+            .footer-container {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .footer-links {
+                justify-content: center;
+            }
+
+            .footer-column {
+                min-width: 150px;
+            }
+        }
+
+        /* Mobile */
+        @media (max-width: 800px) {
+            .header {
+                flex-direction: column;
+                padding: 15px;
+            }
+
+            .logo-title {
+                justify-content: center;
+                gap: 10px;
+                flex-wrap: nowrap;
+                /* keep them side by side even on small screens */
+            }
+
+            .logo-title img {
+                height: 45px;
+            }
+
+            .logo-title h1 {
+                font-size: 22px;
+                text-align: left;
+                width: auto;
+            }
+
+            .header-links {
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
+        }
