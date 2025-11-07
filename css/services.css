@@ -91,9 +91,9 @@ body {
     border-radius: 20px;
 }
 
-.services-category-gardendesign h1 {
+.services-category-gardendesign h2 {
     order: 1;
-    font-size: 16px
+    font-size: 20px
 }
 
 
@@ -132,29 +132,24 @@ body {
 .container {
     display: flex;
     justify-content: space-around;
-    /* Push left and right sections apart */
     align-items: center;
-    /* Vertically align elements */
     padding: 5px;
     height: auto;
-    /* Optional: make it fill the full viewport height */
     box-sizing: border-box;
     max-width: 100%;
     object-fit: cover;
 }
 
-/* Left side: header, paragraph, button */
 .services-category-gardendesignimage {
     max-width: 100%;
     height: auto;
     flex-wrap: nowrap;
-    /* Prevents text from stretching too far */
 }
 
-/* Style individual elements as you like */
-.services-category-gardendesign h1 {
+
+.services-category-gardendesign h2 {
     order: 1;
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 1rem;
 }
 
@@ -195,9 +190,9 @@ body {
 }
 
 
-.services-category-lawninstallationandmaintenance h1 {
+.services-category-lawninstallationandmaintenance h2 {
     order: 1;
-    font-size: 16px;
+    font-size: 20px;
     padding-left: 30px;
 }
 
@@ -248,11 +243,11 @@ body {
 
 
 
-
-.services-category-lawninstallationandmaintenance h1 {
+.services-category-lawninstallationandmaintenance h2 {
     order: 1;
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 1rem;
+    padding-left: 30px;
 }
 
 .services-category-lawninstallationandmaintenance p {
@@ -301,9 +296,9 @@ body {
 
 }
 
-.services-category-eco-irrigationsystems h1 {
+.services-category-eco-irrigationsystems h2 {
     order: 1;
-    font-size: 16px
+    font-size: 20px
 }
 
 .services-category-eco-irrigationsystems p {
@@ -349,10 +344,10 @@ body {
     border-radius: 20px;
 }
 
-.services-category-seasonalclean-up h1 {
+.services-category-seasonalclean-up h2 {
     order: 1;
-    font-size: 16px;
-    padding-left: 30px;
+    font-size: 20px;
+    Padding-left: 10px;
 }
 
 .services-category-seasonalclean-up p {
@@ -400,10 +395,11 @@ body {
     object-fit: cover;
 }
 
-.services-category-seasonalclean-up h1 {
+.services-category-seasonalclean-up h2 {
     order: 1;
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 1rem;
+    padding-left: 30px;
 }
 
 .services-category-seasonalclean-up p {
@@ -580,7 +576,7 @@ body {
             order: 2;
         }
 
-        .services-category-gardendesign h1 {
+        .services-category-gardendesign h2 {
             order: 1;
         }
     }
@@ -590,7 +586,7 @@ body {
             flex-direction: column;
         }
 
-        .services-category-lawninstallationandmaintenance h1 {
+        .services-category-lawninstallationandmaintenance h2 {
             order: 1;
             padding-left: 1px;
         }
@@ -618,7 +614,7 @@ body {
             flex-direction: column;
         }
 
-        .services-category-seasonalclean-up h1 {
+        .services-category-seasonalclean-up h2 {
             order: 1;
             padding-left: 1px;
         }
