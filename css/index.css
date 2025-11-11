@@ -1,5 +1,11 @@
 /* Header layout */
 .header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -36,7 +42,7 @@
     padding: 0;
 }
 
-.header-links a { 
+.header-links a {
     text-decoration: none;
     font-family: "Inter", sans-serif;
     font-size: 16px;
@@ -53,7 +59,6 @@
 /* Body Layout */
 body {
     background-color: #fbf8f8;
-    font-size: 16px;
     font-family: "Inter", sans-serif;
 }
 
@@ -68,6 +73,7 @@ body {
 /*Requirement for hero opener*/
 html,
 body {
+
     height: 100%;
     margin: 0;
 }
@@ -85,8 +91,10 @@ body {
     box-sizing: border-box;
 
 
-    
-    background-image: url("../images/house1.jpg");
+
+    background: linear-gradient(rgba(255, 255, 255, 0.3),
+            rgba(255, 255, 255, 0.3)),
+        url("../images/house1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -97,15 +105,11 @@ body {
     font-weight: 700;
     font-size: 56px;
     margin-bottom: 10px;
-    /*TEMPORARY!!!*/
-    background-color: antiquewhite;
 }
 
 .index-body-opener p {
     font-weight: 500;
     /*color: #777;*/
-    /*TEMPORARY!!!!*/
-    background-color: antiquewhite;
     font-size: 20px;
     margin-top: 10px;
 }
@@ -186,6 +190,7 @@ body {
 .review-client {
     display: flex;
     justify-content: center;
+    margin-bottom: 15px;
 }
 
 .review-client img {
@@ -197,6 +202,11 @@ body {
 .review-client h4 {
     text-align: center;
     margin-left: 10px;
+}
+
+.index-body-whychooseourvision {
+    background-color: #6ca13c;
+    border-radius: 12px;
 }
 
 /*Why choose section*/
@@ -217,14 +227,16 @@ body {
 }
 
 .whychoose-text h4 {
-    font-size: 28;
+    font-size: 28px;
     font-weight: 700;
-    margin-bottom: 10
+    color: #f6f9f3;
+
+    margin: 1px;
 }
 
 .whychoose-text p {
-    font-size: 18;
-    color: #777;
+    font-size: 22px;
+    color: #f6f9f3;
 }
 
 .index-body-whychoose img {
@@ -265,14 +277,16 @@ body {
 }
 
 .ourvision-text h4 {
-    font-size: 28;
+    font-size: 28px;
     font-weight: 700;
-    margin-bottom: 10
+    margin: 1px;
+    color: #f6f9f3;
+
 }
 
 .ourvision-text p {
-    font-size: 18;
-    color: #777;
+    font-size: 22px;
+    color: #f6f9f3;
 }
 
 .index-body-ourvision img {
@@ -381,6 +395,7 @@ body {
 /* Tablet */
 @media (max-width: 900px) {
     .header {
+        position: static;
         justify-content: center;
     }
 
@@ -487,6 +502,7 @@ body {
 /* Mobile */
 @media (max-width: 600px) {
     .header {
+        position: static;
         flex-direction: column;
         padding: 15px;
     }
