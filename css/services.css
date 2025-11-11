@@ -121,16 +121,24 @@ body {
     gap: 2rem;
     padding: 1rem;
     border-radius: 12px;
+      font-size: 28;
+    font-weight: 700;
+    margin-bottom: 10
 }
 
 .services-category-gardendesign p,
 .services-category-lawninstallationandmaintenance p,
 .services-category-eco-irrigationsystems p,
 .services-category-seasonalclean-up p {
-  flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 1rem;
+    border-radius: 12px;
+      font-size: 20;
+    font-weight: 500;
+    margin-bottom: 10
 }
 
 .services-category-gardendesign img,
@@ -169,7 +177,9 @@ body {
 
 
 /* --- Special Buttons --- */
+.services-category-gardendesign button,
 .services-category-lawnbutton,
+.services-category-eco-irrigationsystems button,
 .services-category-seasonalbutton {
     align-self: flex-start;
     height: 35;
@@ -316,13 +326,19 @@ body {
 
     .services-category-gardendesign h2,
     .services-category-lawninstallationandmaintenance h2,
+    .services-category-eco-irrigationsystems h2,
     .services-category-seasonalclean-up h2,
+    .services-category-gardendesign p,
     .services-category-lawninstallationandmaintenance p,
+    .services-category-eco-irrigationsystems p,
     .services-category-seasonalclean-up p,
+    .services-category-gardendesign button
     .services-category-lawnbutton,
+    .services-category-eco-irrigationsystems button
     .services-category-seasonalbutton {
-        order: 1;
-        padding-left: 
+       flex-direction: column;
+        text-align: left;
+        padding: 1.25rem;
     }
 
     .footer-container {
