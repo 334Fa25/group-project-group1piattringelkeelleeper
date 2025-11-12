@@ -1,10 +1,11 @@
 /* Header layout */
 .header {
+    /*
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 10;
-
+    */
 
     display: flex;
     align-items: center;
@@ -310,6 +311,58 @@ body {
     width: fit-content;
 }
 
+/*Service Summary*/
+.index-body-servicesummary {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 30px;
+}
+
+.index-body-servicesummary h3 {
+    font-size: 28px;
+}
+
+.index-body-servicesummary p {
+    font-size: 22px;
+}
+
+.packages-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.packages-column {
+    padding: 20px;
+}
+
+.packages-column h5 {
+    font-size: 24px;
+}
+
+.packages-column img {
+    max-height: 250px;
+    border-radius: 12px;
+}
+
+.packages-column p {
+    font-size: 18px;
+}
+
+.packages-column button {
+    font-family: "Inter", sans-serif;
+    color: white;
+    background-color: black;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px 24px;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
 /*Footer Layout */
 .footer {
     background-color: #fbf8f8;
@@ -484,6 +537,30 @@ body {
         padding: 0.6rem 2rem;
     }
 
+    /*Service Summary*/
+    .index-body-servicesummary h3 {
+        font-size: 24px;
+    }
+
+    .index-body-servicesummary p {
+        font-size: 18px;
+    }
+
+    .packages-container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .packages-column img {
+        max-height: 300px;
+        border-radius: 12px;
+    }
+
+    .packages-column p {
+        font-size: 16px;
+    }
+
     .footer-container {
         flex-direction: column;
         align-items: center;
@@ -611,5 +688,29 @@ body {
         margin: 1rem auto 0 auto;
         width: fit-content;
         padding: 0.65rem 2rem;
+    }
+
+    /*Service Summary*/
+    .index-body-servicesummary h3 {
+        font-size: 24px;
+    }
+
+    .index-body-servicesummary p {
+        font-size: 16px;
+    }
+
+    .packages-container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .packages-column img {
+        max-height: 250px;
+        border-radius: 12px;
+    }
+
+    .packages-column p {
+        font-size: 16px;
     }
 }
