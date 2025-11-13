@@ -132,8 +132,12 @@ body {
 
 .blog-card {
     flex: 1;
-    align-content: center;
+    text-align: center;
     padding-left: 40px;
+}
+
+.blog-card section {
+    align-content: center;
 }
 
 .blog-card img {
