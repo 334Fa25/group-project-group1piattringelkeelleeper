@@ -232,18 +232,18 @@ body {
     padding-right: 60px;
 }
 
-.tesimonials-back {
+.testimonials-back {
     background: #836848;
     height: fit-content;
     width: fit-content;
 }
 
-.all tesimonials {
+.all testimonials {
     background: #836848;
     padding-left: 30px;
 }
 
-.tesimonials-title h2 {
+.testimonials-title h2 {
     font-size: 35px;
     padding-top: 40px;
     background: #836848;
@@ -251,7 +251,7 @@ body {
     padding-left: 100px;
 }
 
-.tesimonials {
+.testimonials {
     background: #836848;
     padding-left: 20px;
     display: grid;
@@ -261,11 +261,11 @@ body {
 
 }
 
-.tesimonials h4 {
+.testimonials h4 {
     font-size: 22px;
 }
 
-.tesimonials section {
+.testimonials section {
     width: 300px;
     background-color: #f6f9f3;
     padding: 10px;
@@ -450,13 +450,13 @@ body {
         padding-right: 40px;
     }
 
-    .tesimonials-back {
+    .testimonials-back {
         background: #836848;
         height: fit-content;
         width: fit-content;
     }
 
-    .tesimonials {
+    .testimonials {
         background: #836848;
         padding-left: 10px;
         display: grid;
@@ -465,7 +465,7 @@ body {
     }
 
 
-    .tesimonials section {
+    .testimonials section {
         width: 250px;
 
         margin: 15px;
@@ -594,12 +594,12 @@ body {
             padding-right: 20px;
         }
 
-        .tesimonials-back {
+        .testimonials-back {
             background: #836848;
             height: 1100px;
         }
 
-        .tesimonials {
+        .testimonials {
             background: #836848;
             padding-left: 10px;
             display: grid;
@@ -609,8 +609,7 @@ body {
             padding-bottom: 100px;
         }
 
-
-        .tesimonials section {
+        .testimonials section {
             width: fit-content;
             margin: 15px;
             border-radius: 10px;
