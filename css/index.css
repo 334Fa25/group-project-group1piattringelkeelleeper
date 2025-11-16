@@ -330,11 +330,13 @@ body {
 .packages-container {
     display: flex;
     justify-content: center;
-
+    flex-wrap: wrap;
 }
 
 .packages-column {
     padding: 20px;
+    flex: 1 1 300px;
+    box-sizing: border-box;
 }
 
 .packages-column h5 {
