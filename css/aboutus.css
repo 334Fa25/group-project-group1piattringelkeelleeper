@@ -235,6 +235,7 @@ body {
 .tesimonials-back {
     background: #836848;
     height: fit-content;
+    width: fit-content;
 }
 
 .all tesimonials {
@@ -416,29 +417,28 @@ body {
         gap: 10px;
         padding-bottom: 30px;
     }
-    
+
     .meet-our-team h4 {
         font-size: small;
     }
-    
+
     .meet-our-team h5 {
         font-size: 14px;
     }
-    
-    .meet-our-team h5{
+
+    .meet-our-team h5 {
         font-size: 6px
     }
-    
+
     .meet-our-team ul {
-            padding-left: 15px;
-            width: 170px;
-            padding-top: 0px;
-        }
-        
-        .meet-our-team li p {
-            width: 170px;
-            font-size: 20px
-        }
+        padding-left: 15px;
+        width: 170px;
+    }
+
+    .meet-our-team li p {
+        width: 170px;
+        font-size: 20px
+    }
 
     .meet-our-team-imgs img {
         grid-template-columns: 1fr;
@@ -453,6 +453,7 @@ body {
     .tesimonials-back {
         background: #836848;
         height: fit-content;
+        width: fit-content;
     }
 
     .tesimonials {
@@ -578,14 +579,13 @@ body {
         .meet-our-team ul {
             padding-left: 15px;
             width: 150px;
-            padding-top: 0px;
         }
-        
+
         .meet-our-team li p {
             width: 130px;
             font-size: 20px
         }
-        
+
         .meet-our-team-imgs img {
             height: 100px;
             width: 100px;
@@ -611,7 +611,8 @@ body {
 
 
         .tesimonials section {
-            width: 175px;
+            width: fit-content;
             margin: 15px;
             border-radius: 10px;
+            height: fit-content;
         }
