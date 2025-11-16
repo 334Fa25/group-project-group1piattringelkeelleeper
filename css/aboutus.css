@@ -42,7 +42,6 @@
     font-size: 16px;
     color: #000;
     font-weight: 500;
-    letter-spacing: -0.5%;
     transition: color 0.2s ease;
 }
 
@@ -55,7 +54,7 @@ body {
     background-color: #fbf8f8;
     font-size: 20px;
     font-family: "Inter", sans-serif;
-    padding: 10
+    padding: 10px;
 }
 
 /*Main layout*/
@@ -161,7 +160,7 @@ body {
 .why-choose-brightsprout h3 {
     font-size: 27px;
     text-align-last: left;
-    padding-left: 29
+    padding-left: 29px;
 }
 
 .why-choose-brightsprout ul {
@@ -183,9 +182,7 @@ body {
     vertical-align: top;
     display: flex;
     list-style-type: none;
-    content: top;
     justify-content: center;
-    align-content: top;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     padding-bottom: 60px;
@@ -214,8 +211,6 @@ body {
     text-align: center;
     width: 260px;
     display: flex;
-    align-items: center;
-    content: center;
     justify-content: center;
 }
 
@@ -245,7 +240,6 @@ body {
 
 .all tesimonials {
     background: #836848;
-    align-items: left;
     padding-left: 30px;
 }
 
@@ -260,7 +254,6 @@ body {
 .tesimonials {
     background: #836848;
     padding-left: 20px;
-    flex-direction: n;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
@@ -278,7 +271,6 @@ body {
     padding: 10px;
     margin: 30px;
     border-radius: 20px;
-    align-content: left;
 
 }
 
@@ -303,7 +295,6 @@ body {
 }
 
 .footer-about h2 {
-    font-weight: 800px;
     margin-bottom: 10px;
 }
 
@@ -321,7 +312,6 @@ body {
 }
 
 .footer-column h3 {
-    font-weight: 800px;
     margin-bottom: 10px;
     font-size: 16px;
 }
@@ -339,7 +329,6 @@ body {
 .footer-column a {
     text-decoration: none;
     color: #555;
-    transition: color 0.2 ease;
 }
 
 .footer-column a:hover {
@@ -370,7 +359,7 @@ body {
         background-color: #fbf8f8;
         font-size: 16px;
         font-family: "Inter", sans-serif;
-        padding: 10
+        padding: 10px;
     }
 
     .page-title {
@@ -524,7 +513,7 @@ body {
             background-color: #fbf8f8;
             font-size: 16px;
             font-family: "Inter", sans-serif;
-            padding: 10
+            padding: 10px;
         }
 
         .page-title {
