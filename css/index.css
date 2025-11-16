@@ -206,7 +206,7 @@ body {
 }
 
 .index-body-whychooseourvision {
-    background-color: #6ca13c;
+    background-color: #406024;
     border-radius: 12px;
 }
 
@@ -230,14 +230,14 @@ body {
 .whychoose-text h4 {
     font-size: 28px;
     font-weight: 700;
-    color: #f6f9f3;
+    color: #FFF;
 
     margin: 1px;
 }
 
 .whychoose-text p {
     font-size: 22px;
-    color: #f6f9f3;
+    color: #FFF;
 }
 
 .index-body-whychoose img {
@@ -281,13 +281,13 @@ body {
     font-size: 28px;
     font-weight: 700;
     margin: 1px;
-    color: #f6f9f3;
+    color: #FFF;
 
 }
 
 .ourvision-text p {
     font-size: 22px;
-    color: #f6f9f3;
+    color: #FFF;
 }
 
 .index-body-ourvision img {
@@ -339,7 +339,7 @@ body {
     box-sizing: border-box;
 }
 
-.packages-column h5 {
+.packages-column h4 {
     font-size: 24px;
 }
 
@@ -708,7 +708,7 @@ body {
     }
 
     .packages-column img {
-        max-height: 250px;
+        display: none;
         border-radius: 12px;
     }
 
