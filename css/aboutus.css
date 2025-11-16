@@ -24,7 +24,6 @@
     font-family: 'Inter', sans-serif;
     font-weight: 900;
     color: #0D6627;
-    margin: 0;
     white-space: nowrap;
 }
 
@@ -219,7 +218,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0;
 
 }
 
@@ -257,7 +255,6 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
-
 
 }
 
@@ -351,6 +348,7 @@ body {
 
 
 
+
 /* --- Responsive --- */
 
 /* Tablet */
@@ -398,7 +396,6 @@ body {
 
     .making-home-better button {
         margin-left: 40px;
-
         padding: 5px 10px;
         border: none;
         border-radius: 5px;
@@ -427,7 +424,7 @@ body {
     }
 
     .meet-our-team h5 {
-        font-size: 6px
+        font-size: 6px;
     }
 
     .meet-our-team ul {
@@ -437,7 +434,7 @@ body {
 
     .meet-our-team li p {
         width: 170px;
-        font-size: 20px
+        font-size: 20px;
     }
 
     .meet-our-team-imgs img {
@@ -467,11 +464,10 @@ body {
 
     .testimonials section {
         width: 250px;
-
         margin: 15px;
         border-radius: 10px;
     }
-
+}
 
 
 
@@ -487,7 +483,6 @@ body {
             justify-content: center;
             gap: 10px;
             flex-wrap: nowrap;
-            /* keep them side by side even on small screens */
         }
 
         .logo-title img {
@@ -556,7 +551,6 @@ body {
 
         .making-home-better button {
             margin-left: 20px;
-
             padding: 5px 10px;
             border: none;
             border-radius: 5px;
@@ -583,7 +577,7 @@ body {
 
         .meet-our-team li p {
             width: 130px;
-            font-size: 20px
+            font-size: 20px;
         }
 
         .meet-our-team-imgs img {
@@ -615,3 +609,4 @@ body {
             border-radius: 10px;
             height: fit-content;
         }
+    }
