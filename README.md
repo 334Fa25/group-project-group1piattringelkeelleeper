@@ -11,3 +11,8 @@
 #38804c - Teal Green BrightSprout Menu Title
 
 #605353 - Dark Brown Services Buttons
+
+
+#545454 - Light grey copyright / disclaimer text
+#FFF - White text
+#406024 - New green background color used with white text
