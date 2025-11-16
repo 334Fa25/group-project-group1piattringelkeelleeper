@@ -234,11 +234,16 @@ body {
     background: #836848;
     height: fit-content;
     width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .all testimonials {
     background: #836848;
     padding-left: 30px;
+        display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .testimonials-title h2 {
