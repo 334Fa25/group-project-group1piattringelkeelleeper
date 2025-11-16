@@ -97,7 +97,7 @@ body {
 
 .making-home-better {
     isolation: isolate;
-    background-color: #426a1d;
+    background-color: #406024;
     height: 360px;
 }
 
@@ -349,7 +349,7 @@ body {
 .footer-copy {
     text-align: center;
     margin-top: 40px;
-    color: #777;
+    color: #545454;
     font-size: 14px;
 }
 
