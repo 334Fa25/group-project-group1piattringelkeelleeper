@@ -93,8 +93,8 @@ body {
 
 
 
-    background: linear-gradient(rgba(255, 255, 255, 0.3),
-            rgba(255, 255, 255, 0.3)),
+    background: linear-gradient(rgba(255, 255, 255, 0.6),
+            rgba(255, 255, 255, 0.4)),
         url("../images/house1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -108,7 +108,7 @@ body {
     margin-bottom: 10px;
 }
 
-.index-body-opener p {
+#growingbeauty {
     font-weight: 500;
     /*color: #777;*/
     font-size: 20px;
@@ -159,16 +159,43 @@ body {
     background-color: #f2f2f2;
 }
 
+.index-scroll {
+    margin-top: 10%;
+    background-color: #fbf8f8;
+    font-family: "Inter", sans-serif;
+    border-radius: 30%;
+    color: black;
+    cursor: pointer;
+
+    /*Turning off cause i dont like it*/
+    display: none;
+}
+
+#scrollsee {
+    margin: 10px 20px 0 20px;
+    font-size: 10px;
+}
+
+#scrollbutton {
+    margin: 0 0 0 0;
+    font-size: 50px;
+}
+
 /*Quote review section*/
 .index-body-review p {
     text-align: center;
     font-size: 24px;
+
+    /*Disable due to feedback*/
+    display: none;
 }
 
 #quote-open {
     text-align: left;
     font-size: 46;
     margin: 0;
+    margin-top: 20px;
+    margin-bottom: -20px;
     margin-left: 22%;
 }
 
@@ -185,6 +212,7 @@ body {
     text-align: right;
     font-size: 46;
     margin: 0;
+    margin-top: -20px;
     margin-right: 22%;
 }
 
@@ -494,6 +522,8 @@ body {
     .index-body-opener p {
         font-size: 18px;
     }
+
+
 
     /* Quote section */
     #quote-open,

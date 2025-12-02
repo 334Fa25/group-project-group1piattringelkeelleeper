@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang=en>
 
-    <!--test comment to fix github bug-->
+<!--test comment to fix github bug-->
 
 <head>
     <title>
@@ -36,13 +36,25 @@
     <div class="index-body-container">
         <div class="index-body-opener">
             <h2>Brightsprout Home</h2>
-            <p>Growing beauty, one yard at a time</p>
+            <p id="growingbeauty">Growing beauty, one yard at a time</p>
             <div class=button-row>
                 <button class="btn index-services-button" onclick="location.href='services.html';">Services</button>
                 <button class="btn index-aboutus-button" onclick="location.href='aboutus.html';">About Us</button>
             </div>
+            <div class="index-scroll" onclick="topFunction()">
+                <p id="scrollsee">Scroll to see more</p>
+                <p id="scrollbutton">V</p>
+                <script>
+                    function topFunction() {
+                        document.getElementById("scrolltothis").scrollIntoView({
+                            behavior: "smooth"
+                        });
+                    }
+                </script>
+            </div>
         </div>
 
+        <div id=scrolltothis></div>
         <div class="index-body-review">
             <p>Don't believe us? Lets ask our clients.</p>
             <h2 id="quote-open">"</h2>
@@ -92,9 +104,9 @@
         <div class="index-body-servicesummary">
             <h3>What we offer</h3>
             <p>Brightsprout Landscaping offers various services, packages, and bundles.
-                <br>Make your dream renovations come to reality through our company.
+                <br>Make your dream renovations come to reality through our services.
             </p>
-            <p>Our most <b>popular</b> packages:</p>
+            <p>Our most <span style="font-size: 28px; font-weight: 700;">popular</span> packages:</p>
             <div class="packages-container">
                 <div class="packages-column">
                     <h4>Garden Design</h4>
