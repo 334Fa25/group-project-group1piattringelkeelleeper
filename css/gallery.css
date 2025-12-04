@@ -123,7 +123,7 @@ body {
 /* Image Styling */
 .image-card img {
     width: 100%;
-    height: 250PX;
+    height: 500px;
     border-radius: 12px;
     object-fit: cover;
     justify-content: center;
@@ -138,14 +138,14 @@ body {
 
 /* Bottom Section Container */
 .container {
-    max-width: 1100px;         /* keeps the section from stretching too wide */
-    margin: 40px auto;         /* centers the container horizontally */
+    max-width: 2500px;         
+    margin: 40px auto;         
     padding: 20px;
     display: flex;
-    flex-direction: column;    /* stack: image, text, image */
-    align-items: center;       /* center images and paragraph */
+    flex-direction: column;    
+    align-items: center;      
     gap: 24px;
-    text-align: center;        /* center paragraph text */
+    text-align: center;        
     box-sizing: border-box;
 }
 
